@@ -6,6 +6,7 @@ const pkg = require('vitepress/package.json')
 
 export default defineConfig({
   lang: 'en-US',
+  base: '/vitepress-docs-zh/',
   title: 'VitePress',
   description: 'Vite & Vue powered static site generator.',
 

@@ -1,3 +1,6 @@
+
+
+
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
@@ -44,6 +47,9 @@ jobs:
           node-version: '18'
       - name: Install pnpm
         run: npm install -g pnpm
+      - name: Install vitepress
+        run: npm install -g vitepress
+        
       - name: Install dependencies
         run: pnpm install
 
